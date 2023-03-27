@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a control Union User\n    I want to successfully log in\n    in order to use the application",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;successfull-login-attempt",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "successfull login attempt",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on login page",
+            "result": {
+              "status": "passed",
+              "duration": 422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user logs into the application",
+            "result": {
+              "status": "passed",
+              "duration": 4034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the dashboard is displayed in the application",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "controlunioncypress",
+  "version": "0.0.1",
+  "description": "cypress framework demo for control union",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "demo"
+  ],
+  "author": "MauGaP",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress": "^12.8.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/stepdefinitions/**/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
